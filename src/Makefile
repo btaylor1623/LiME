@@ -25,7 +25,8 @@ lime-objs := tcp.o disk.o main.o hash.o deflate.o
 
 KVER ?= $(shell uname -r)
 
-KDIR ?= /lib/modules/$(KVER)/build
+#KDIR ?= /lib/modules/$(KVER)/build
+KDIR ?= /usr/src/linux-source-4.19
 
 PWD := $(shell pwd)
 
